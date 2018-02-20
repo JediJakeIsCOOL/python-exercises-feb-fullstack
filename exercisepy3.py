@@ -57,7 +57,8 @@ while True:
     userinp = input("Do you want a coin?").upper()
     if userinp == "YES":
         coins = coins + 1
+        print(coins)
     else:
         break
-print(coins)            
+print("you have" ,coins, "coins")            
 
